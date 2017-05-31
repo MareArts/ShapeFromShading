@@ -1,0 +1,42 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: HomeWork2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\mare\AppData\Local\Temp\RSPF572.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/HomeWork2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\mare\Downloads\C_Code (1)\CmdView.cpp"
+]
+Creating command line "cl.exe @C:\Users\mare\AppData\Local\Temp\RSPF572.tmp" 
+Creating temporary file "C:\Users\mare\AppData\Local\Temp\RSPF582.tmp" with contents
+[
+opengl32.lib glu32.lib glut32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/HomeWork2.pdb" /debug /machine:I386 /out:"Debug/HomeWork2.exe" /pdbtype:sept 
+".\Debug\CmdView.obj"
+".\Debug\FileIO.obj"
+".\Debug\HomeWork2.obj"
+".\Debug\HomeWork2Doc.obj"
+".\Debug\HomeWork2View.obj"
+".\Debug\MainFrm.obj"
+".\Debug\StdAfx.obj"
+".\Debug\HomeWork2.res"
+]
+Creating command line "link.exe @C:\Users\mare\AppData\Local\Temp\RSPF582.tmp"
+<h3>Output Window</h3>
+Compiling...
+CmdView.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/HomeWork2.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\CmdView.sbr" ".\Debug\FileIO.sbr" ".\Debug\HomeWork2.sbr" ".\Debug\HomeWork2Doc.sbr" ".\Debug\HomeWork2View.sbr" ".\Debug\MainFrm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+HomeWork2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
